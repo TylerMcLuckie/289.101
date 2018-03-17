@@ -25,3 +25,34 @@ body{
     height: 100px;
     color:#C9A15F;
 }
+.aboutarea{
+    width:1400px;
+    float:centre;
+    height:300px;
+    color:darkseagreen;
+    padding-top:40px;
+}
+.about{width:220px;
+       color:white;
+       font-size:3rem;
+       font-weight:bold;
+}
+.abouttext{
+    width:700px;
+    float:centre;
+    height:100px;
+    color:white;
+}
+.sidemenuarea{width:50px;
+             float:left;
+             height:388px;
+             color:lightblue;
+              }
+.sidemenu{width:50px;
+          float:left;
+}
+
+
+
+      
+      
