@@ -51,6 +51,19 @@ body{
 .sidemenu{width:50px;
           float:left;
 }
+.HowWeWorkarea{
+    width:1200px;
+    float:inherit;
+    height:1200;
+    color:lightblue;   
+}
+.HowWeWorkText{
+    Width:1000px;
+    float:inherit;
+    height:100px;
+    color:black;
+}
+
 
 
 
