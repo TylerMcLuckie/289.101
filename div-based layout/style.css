@@ -2,7 +2,7 @@
 div {
     outline: 1px solid red;
 }
-.body {
+body {
     background-color:#5E2C05;
 }
 .logoarea {
@@ -11,7 +11,7 @@ div {
     height: 100px;
     padding-top: 40px;
 }
-.menu nav{width:200px;
+.menunav{width:200px;
       float:left;
       color:white;
       font-size:3rem;
@@ -53,7 +53,7 @@ div {
              height:388px;
              color:lightblue;
               }
-.sidemenu nav{width:50px;
+.sidemenunav{width:50px;
     float:left;
     color:white;
     font-size:2rem;
