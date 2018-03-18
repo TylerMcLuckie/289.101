@@ -1,10 +1,9 @@
-
 div {
-    outline: 1px solid red;
-}
+    outline: 1px solid red;}
 body {
     background-color:#5E2C05;
 }
+
 .logoarea {
     width:100%;
     float:left;
