@@ -1,17 +1,23 @@
-div{
+
+div {
     outline: 1px solid red;
 }
-body{
+body {
     background-color:#5E2C05;
 }
-.logoarea{
+.logoarea {
     width:100%;
     float:left;
     height: 100px;
     padding-top: 40px;
 }
-.menu{width:200px;
+.menu nav{width:200px;
       float:left;
+      color:white;
+      font-size:3rem;
+      font-family: sans-serif;
+      font-weight:bold;
+      
 }
 .logo{
     width:200px;
@@ -24,22 +30,21 @@ body{
     float:left;
     height: 100px;
     color:#C9A15F;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin-top: 18px;
 }
 .aboutarea{
     width:1400px;
-    float:centre;
+    float:right;
     height:300px;
     color:darkseagreen;
     padding-top:40px;
 }
-.about{width:220px;
-       color:white;
-       font-size:3rem;
-       font-weight:bold;
-}
 .abouttext{
     width:700px;
-    float:centre;
+    margin-left: auto;
+    margin-right: auto;
     height:100px;
     color:white;
 }
@@ -48,18 +53,25 @@ body{
              height:388px;
              color:lightblue;
               }
-.sidemenu{width:50px;
-          float:left;
+.sidemenu nav{width:50px;
+    float:left;
+    color:white;
+    font-size:2rem;
+    font-family: sans-serif;
+    font-weight:bold;
+    
 }
 .HowWeWorkarea{
     width:1200px;
-    float:inherit;
+    margin-left: auto;
+    margin-right: auto;
     height:1200;
     color:lightblue;   
 }
 .HowWeWorkText{
     Width:1000px;
-    float:inherit;
+    margin-left: auto;
+    margin-right: auto;
     height:100px;
     color:black;
 }
