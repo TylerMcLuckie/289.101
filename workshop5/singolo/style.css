@@ -73,13 +73,14 @@ div{
     font-size:1rem;
 }
 .servicesbox1{
-    width:250;
+    width:100;
     height:240;
+    padding-right:20px;
     float:left;
     color:gray;
 }
 .servicesbox2{
-    width:250;
+    width:100;
     height;240;
     float:left auto;
     float:right auto;
@@ -87,7 +88,7 @@ div{
     color:gray;
 }
 .servicesbox3{
-    width:250;
+    width:100;
     height;240;
     float:right;
     color:gray;
