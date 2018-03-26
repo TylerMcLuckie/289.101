@@ -31,6 +31,7 @@ div{
     float:right;
     margin-top: 40px;
     font-size: 0.75rem;
+    color: #4B4E61;
 }
 
 .links a{
@@ -44,3 +45,13 @@ div{
     color:#f06c64;
     
 }
+.banner{
+    background-color:#f06c64
+}
+.banner img{
+    max-width: 780px;
+    width: 90%;
+}
+
+
+
