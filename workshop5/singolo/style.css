@@ -59,9 +59,38 @@ div{
 .services{
     background-color:white;
     max-width: 950px;
-    max-height: 450px;
+    max-height: 350px;
+}
+.servicesheader{
+    max-width: 950px;
+    float:left;
+    padding:20px;
+    font-size: 1.5rem;
+    color:gray;
+    font:bold;
+}
+.info{
+    font-size:1rem;
+}
+.servicesbox1{
+    width:250;
+    height:240;
+    float:left;
+    color:gray;
+}
+.servicesbox2{
+    width:250;
+    height;240;
+    float:left auto;
+    float:right auto;
+    margin:1px;
+    color:gray;
+}
+.servicesbox3{
+    width:250;
+    height;240;
+    float:right;
+    color:gray;
     
 }
-
-
 
