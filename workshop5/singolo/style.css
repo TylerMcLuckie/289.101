@@ -56,14 +56,11 @@ div{
     max-width: 780px;
     width: 90%;
 }
-.services{
-    background-color:white;
-    max-width: 950px;
-    max-height: 350px;
-}
+
 .servicesheader{
     max-width: 950px;
-    float:left;
+    margin-left: auto;
+    margin-right: auto;
     padding:20px;
     font-size: 1.5rem;
     color:gray;
@@ -72,26 +69,33 @@ div{
 .info{
     font-size:1rem;
 }
+.serviceboxes{
+    max-width: 950px;
+    height:316.6px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+}
 .servicesbox1{
-    width:100;
-    height:240;
-    padding-right:20px;
+    width:314px;
+    height:316px;
     float:left;
+    margin: 1px;
     color:gray;
 }
 .servicesbox2{
-    width:100;
-    height;240;
-    float:left auto;
-    float:right auto;
-    margin:1px;
+    width:314px;
+    height:316px;
+    float:left;
+    margin: 1px;
     color:gray;
 }
 .servicesbox3{
-    width:100;
-    height;240;
-    float:right;
-    color:gray;
-    
+    width:314px;
+    height:316px;
+    float:left;
+    margin:1px;
+    color:gray;    
 }
 
