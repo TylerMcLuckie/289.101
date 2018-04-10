@@ -1,9 +1,10 @@
 @import 
 url('https://fonts.googleapis.com/css?family=Lato');
 body{
-    background-color:white;
+    background-image:image(handoutofbox);
     margin:2px;
     font-family: 'Lato', sans-serif;
+    max-width: 950px;
 }
 
 div{
@@ -12,34 +13,39 @@ div{
 .header{
     background-color:white;
     color:darkblue;
-    height:250px;
+    max-width: 950px;
+    height:350px;
+    padding:40;
     margin-left: auto;
     margin-right: auto; 
+    margin-top: auto;
+    margin-bottom: auto
 }
 
 .logo{
-    float:left;
-    padding: 35px;
-    height:90px;
-    width: 100;
+    float:auto;
+    padding:30px;
+    height:100px;
+    width:300px;
     font-family:cursive;
     font-size:2rem;
-    font: bold;
+
 }
 .slogan{
-    float:left;
-    padding: 5px;
-    height:40px;
-    width: 100;
+    float:bottom;
+    padding:20px;
+    height:50px;
+    width:250px;
     font-family:cursive;
-    font-size:1rem;    
+    font-size:0.9rem;    
 }
 .links{
     float:right;
-    margin-top: 40px;
-    padding:35px;
+    padding: 20px;
     font-size: 1rem;
     color: #4B4E61;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .links a{
@@ -49,7 +55,7 @@ div{
     font-family: cursive;
 }
 .links a:hover{
-    color:skyblue;
+    color:steelblue;
 }
 .banner{
     background-color:white;
