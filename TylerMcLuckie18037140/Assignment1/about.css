@@ -1,0 +1,69 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    background-color:lightblue;
+    margin:2px;
+    font-family: 'Lato', sans-serif;
+}
+
+div{
+    outline: 1px solid grey;
+    }
+.header{
+    background-color:white;
+    color:darkblue;
+    height:250px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.logo{
+    float:left;
+    padding:35px;
+    height:90px;
+    width: 100;
+    font-family:cursive;
+    font-size:2rem;
+
+}
+.slogan{
+    float:left;
+    padding:10px;
+    height:40px;
+    width: 100;
+    font-family:cursive;
+    font-size:1rem;    
+}
+.links{
+    float:right;
+    margin-top: 40px;
+    padding:35px;
+    font-size: 1rem;
+    color: #4B4E61;
+}
+
+.links a{
+    color:darkblue;
+    text-decoration:;
+    padding:35px;
+    font-family: cursive;
+}
+.links a:hover{
+    color:skyblue;
+}
+
+.about{
+    float:left auto;
+    float:right auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+.footer{
+    
+    
+}
+

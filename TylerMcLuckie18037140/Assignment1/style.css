@@ -1,0 +1,99 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    background-color:white;
+    margin:2px;
+    font-family: 'Lato', sans-serif;
+}
+
+div{
+    outline: 1px solid grey;
+    }
+.header{
+    background-color:white;
+    color:darkblue;
+    height:250px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.logo{
+    float:left;
+    padding: 35px;
+    height:90px;
+    width: 100;
+    font-family:cursive;
+    font-size:2rem;
+    font: bold;
+}
+.slogan{
+    float:left;
+    padding: 5px;
+    height:40px;
+    width: 100;
+    font-family:cursive;
+    font-size:1rem;    
+}
+.links{
+    float:right;
+    margin-top: 40px;
+    padding:35px;
+    font-size: 1rem;
+    color: #4B4E61;
+}
+
+.links a{
+    color:darkblue;
+    text-decoration:;
+    padding:35px;
+    font-family: cursive;
+}
+.links a:hover{
+    color:skyblue;
+}
+.banner{
+    background-color:white;
+    padding:35px;
+    float: left;
+    height:1053px;
+    width: 30%;   
+}
+.banner img{
+    max-width: 25%;
+}
+.about{
+    
+}
+
+.portfolioboxes{
+    max-width: 65%;
+    height:1053px;
+    float:right;
+    padding:35px;
+}
+.box1{
+    width:314pxwhite
+    height:316px;
+    float:right;
+    margin: 1px;
+    color:gray;
+}
+.box2{
+    width:314px;
+    height:316px;
+    float:right;
+    margin: 1px;
+    color:gray;
+}
+.box3{
+    width:314px;
+    height:316px;
+    float:right;
+    margin:1px;
+    color:gray;    
+}
+.footer{
+    
+    
+}
+
