@@ -14,7 +14,7 @@ div{
     background-color:white;
     color:darkblue;
     max-width: 950px;
-    height:350px;
+    height:150px;
     padding:40;
     margin-left: auto;
     margin-right: auto; 
@@ -43,15 +43,13 @@ div{
     float:right;
     padding: 20px;
     font-size: 1rem;
-    color: #4B4E61;
-    margin-left: auto;
-    margin-right: auto; 
+    color: #4B4E61; 
 }
 
 .links a{
     color:darkblue;
     text-decoration:;
-    padding:35px;
+    padding: 30px;
     font-family: cursive;
 }
 .links a:hover{

@@ -57,11 +57,12 @@ div{
 }
 .portfolioboxes{
     height:1053px;
+    max-width:950px;
     float:middle;
     padding:35px;
 }
 .box1{
-    width:300pxwhite
+    width:300px;
     height:300px;
     float:middle;
     margin: 1px;
