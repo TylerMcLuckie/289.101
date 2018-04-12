@@ -1,19 +1,18 @@
 @import 
 url('https://fonts.googleapis.com/css?family=Lato');
 body{
-    background-color: aliceblue;
+    background-color:white;
     margin:2px;
     font-family: 'Lato', sans-serif;
     max-width: 950px;
     margin-left: auto;
     margin-right: auto; 
 }
-
 div{
     outline: 1px solid grey;
     }
 .header{
-    background-color:beige;
+    background-color:white;
     color:darkblue;
     height:200px;    
 }
@@ -40,7 +39,6 @@ div{
     font-size: 1rem;
     color: #4B4E61; 
 }
-
 .links a{
     padding:20px;
     color:darkblue;
@@ -49,3 +47,19 @@ div{
 .links a:hover{
     color:steelblue;
 }
+.aboutcontent{
+    background-color:white;
+    color:darkblue;
+    max-width: 950px;
+    height: 1000px; 
+}
+.ABOUT{
+    float:left;
+    margin-top: 40px;
+    font-family:cursive;
+    font-size:2rem;}
+.aboutcontent img{
+    height: 90%;
+    float:bottom;   
+}
+
