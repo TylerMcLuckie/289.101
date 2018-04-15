@@ -1,21 +1,18 @@
 @import 
 url('https://fonts.googleapis.com/css?family=Lato');
 body{
-    background-color: aliceblue;
+    background-color: white;
     margin:2px;
     font-family: 'Lato', sans-serif;
     max-width: 950px;
     margin-left: auto;
     margin-right: auto; 
 }
-
-div{
-    outline: 1px solid grey;
-    }
 .header{
-    background-color:beige;
-    color:darkblue;
-    height:200px;    
+    background-color:black;
+    color:white;
+    height:200px;
+    bottom outline: red;
 }
 .nav{
     max-width: 950px;
@@ -25,27 +22,75 @@ div{
 .logo{
     float:left;
     margin-top: 40px;
+    margin-left: 40px;
     font-family:cursive;
     font-size:2rem;
 }
 .slogan{
     float:bottom;
     margin-bottom:40px;
+    margin-left: 20px;
     font-family:cursive;
     font-size:0.9rem;    
 }
 .links{
     float:right;
     margin-top:40px;
-    font-size: 1rem;
-    color: #4B4E61; 
+    margin-right:20px;
+    font-size:0.9rem;
+    color:red; 
 }
-
 .links a{
-    padding:20px;
-    color:darkblue;
+    padding:15px;
+    color:white;
     font-family: cursive;
 }
 .links a:hover{
-    color:steelblue;
+    color:red;
+}
+.center{
+    height:1000px; 
+    max-width:950px;
+}
+.center img{
+    max-width:500px;
+    height: 750px;
+    margin-top: 100px;
+    float:left;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    float:right;
+    outline:red;
+    outline:2px;
+}
+.box1{
+    float:right;
+    margin-top:100px;
+    margin-right:40px;
+    color: black;
+    font-size:1rem;
+}
+.box img{
+    max-width: 50px;
+    max-height: 50px;
+    float: bottom; 
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.footer{
+    max-width: 950px;
+    height:100px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size:0.9rem;
+}
+.footer img{
+    max-width: 50px;
+    max-height: 50px;
+    float: top;
+    float: right;
 }
