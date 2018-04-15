@@ -47,7 +47,7 @@ body{
     color:red;
 }
 .center{
-    height:1200px; 
+    height:1600px; 
     max-width:950px;
     padding:20px;
 }
@@ -56,6 +56,22 @@ body{
     margin-left: auto;
     margin-right: auto;
     color: black;
+}
+.box{
+    width:900px;
+    height:400px;
+    margin-top:30px;
+    border-bottom-color:red;   
+}
+.box img{
+    width:auto;
+    height:300px;
+    float:right;   
+}
+.text{
+    margin-right:600px;
+    font-size:0.8rem;
+    float: left; 
 }
 .box1{
     width:900px;
