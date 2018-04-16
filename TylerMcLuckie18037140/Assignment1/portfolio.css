@@ -68,6 +68,17 @@ body{
     height:300px;
     float:right;   
 }
+.safbox{
+    width:900px;
+    height:400px;
+    margin-top:30px;
+    border-bottom-color:red;
+}
+.saf img{
+    width:211px;
+    height:300px;
+    float:right;     
+}
 .text{
     font-size:0.8rem;
     float: left; 
