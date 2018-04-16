@@ -61,7 +61,7 @@ body{
     width:900px;
     height:400px;
     margin-top:30px;
-    border-bottom-color:red;   
+    border-bottom-color:px2px solid red;   
 }
 .box img{
     width:50%;
