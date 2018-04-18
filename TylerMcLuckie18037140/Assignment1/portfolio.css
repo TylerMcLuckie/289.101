@@ -47,7 +47,7 @@ body{
     color:red;
 }
 .center{
-    height:1600px; 
+    height:1000px; 
     max-width:950px;
     padding:20px;
 }
@@ -59,32 +59,20 @@ body{
 }
 .box {
     width:900px;
-    height:400px;
-    margin-top:30px;
-    border-bottom-color:px2px solid red;   
+    height:307px;
+    margin-top:20px;
+    border-bottom:2px gray;   
 }
 .box img{
-    width:50%;
+    width:60%;
     height:300px;
-    float:right;   
-}
-.safbox{
-    width:900px;
-    height:400px;
-    margin-top:30px;
-    border-bottom-color:red;
-}
-.saf img{
-    width:211px;
-    height:300px;
-    float:right;     
+    float:right;
 }
 .text{
     font-size:0.8rem;
     float: left; 
-    width: 50%;
+    width: 40%;
 }
-
 .footer{
     max-width: 950px;
     height:100px;
