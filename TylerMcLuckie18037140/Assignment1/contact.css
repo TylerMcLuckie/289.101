@@ -51,33 +51,30 @@ body{
     max-width:950px;
     padding: 20px;
 }
-.center img{
+.box img{
     max-width:500px;
     height: 750px;
     margin-top: 100px;
     float:left;
 }
 .box{
-    width: 300px;
-    height: 200px;
-    float:right;
-    outline:red;
-    outline:2px;
+    width: 930px;
+    height: 950px;
 }
-.box1{
+.contact{
     float:right;
     margin-top:100px;
-    margin-right:40px;
+    width: 40%;
     color: black;
     font-size:1rem;
 }
-.box img{
+.contact img{
     max-width: 50px;
     max-height: 50px;
     float: bottom; 
     float: right;
     margin-top: 40px;
-    margin-right: 40px;
+    margin-right: 70px;
 }
 .footer{
     max-width: 950px;

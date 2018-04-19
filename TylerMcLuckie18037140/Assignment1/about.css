@@ -52,7 +52,7 @@ body{
     max-width:950px;
     padding:20px;
 }
-.aboutcontent{
+.content{
     background-color:white;
     color:black;
     margin-top: 30px;
@@ -62,7 +62,7 @@ body{
     height: 500px;
     float:right;   
 }
-.aboutcontent img{
+.content img{
     width: 333px;
     height: 500px;
     float:bottom;
