@@ -1,0 +1,89 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    background-color: black;
+    margin:2px;
+    font-family: 'Lato', sans-serif;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.header{
+    background-color:black;
+    color:white;
+    height:200px;
+}
+.nav{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.logo{
+    float:left;
+    margin-top: 35px;
+    margin-left: 35px;
+    font-family:cursive;
+    font-size:1.8rem;
+}
+.slogan{
+    float:bottom;
+    margin-bottom:40px;
+    font-family:cursive;
+    font-size:0.9rem;    
+}
+.links{
+    float:right;
+    margin-top:40px;
+    margin-right:20px;
+    font-size:0.9rem;
+    color:red; 
+}
+.links a{
+    padding:15px;
+    color:white;
+    font-family: cursive;
+}
+.links a:hover{
+    color:red;
+}
+.center{
+    height:1000px; 
+    max-width:950px;
+    padding: 20px;
+}
+.center img{
+    max-width:930px;
+    height:797px;
+    margin-top:60px;
+}
+.footer{
+    max-width: 950px;
+    height:100px;
+    padding:20px;
+    background-color: black;
+    color: white;
+    font-size:0.9rem;  
+}
+.footer img{
+    max-width: 50px;
+    max-height: 50px;
+    float: top;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
