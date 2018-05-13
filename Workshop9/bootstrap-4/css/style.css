@@ -11,9 +11,45 @@ body{
 }
 .orange{
     background-color:orange;
-    height:150px;
+    height:200px;
+}
+.container2{
+    height: 700;   
 }
 .grey{
     background-color: grey;
-    height:100px;
+    height:50px;
+}
+.pink{
+    background-color: pink;
+    height: 50px;
+}
+
+.maroon{
+    background-color: maroon;
+    height: 200px;   
+}
+.container3{
+    float:;
+}
+    
+    
+ 
+/* xs devices */
+/*body { background-color: red }
+/* sm devices */
+/*@media (min-width: 576px) {
+body { background-color: orange }
+}
+/* md devices */
+/*@media (min-width: 768px) {
+body { background-color: yellow }
+}
+/* lg devices */
+/*@media (min-width: 992px) {
+body { background-color: green }
+}
+/* xl devices */
+/*@media (min-width: 1200px) {
+//body { background-color: blue }
 }
