@@ -107,12 +107,19 @@
     eye_right_y += 10;
     document.getElementById('eye_right').style.top = eye_right_y + 'px';
     });
-    
+      
+     //move eyes closer  
+    document.getElementById('eyes_down_btn').addEventListener('click', function() {
+    eye_left_y += 10;
+    document.getElementById('eye_left').style.top = eye_left_y + 'px';
+    eye_right_y += 10;
+    document.getElementById('eye_right').style.top = eye_right_y + 'px';
+    });
       
     //mounth event listener
     document.getElementById('happy_mouth_btn').addEventListener('click', function(){
-        document.getElementById('mouth').src = 'mouth_happy.svg';
-      });
+    document.getElementById('mouth').src = 'mouth_happy.svg';
+    });
       
      document.getElementById('sad_mouth_btn').addEventListener('click', function(){
      document.getElementById('mouth').src = 'mouth_sad.svg';
