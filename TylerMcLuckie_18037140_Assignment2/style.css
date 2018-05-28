@@ -1,0 +1,163 @@
+* {outline: 1px yellow solid}
+
+@import 
+url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    background-color: #360b4f;
+    margin:2px;
+    font-family: 'Lato', sans-serif;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.header{
+    border-top-color: yellow 23px;
+    overflow: hidden; 
+}
+.nav{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    float:left;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-family:cursive;
+    font-size:1.8rem;
+}
+.wonkagraph{
+    width: 100%;
+}
+.links{
+    margin-top:40px;
+    margin-right:20px;
+    font-size:0.9rem;
+    color:purple;
+    float:right;
+    min-width:200px;
+}
+.links a{
+    padding:15px;
+    color:yellow;
+    font-family: cursive;
+    text-decoration:none; 
+    text-align: right;
+}
+.links a:hover{
+    color:white;
+}
+.center{
+    height:1200px;
+    max-width:950px;
+    padding:20px;
+}
+.content{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: yellow;
+    text-align:right; 
+}
+.content img{
+    float: left;
+}
+.box {
+    width:900px;
+    height:307px;
+    margin-top:20px;
+    border-bottom:3px gray;   
+}
+.box img{
+    width:60%;
+    height:300px;
+    float:right;
+}
+.contactbox{
+       
+}
+.footer text{
+    font-size:0.8rem;
+    float: left; 
+    width: 30%;
+}
+.footer{
+    max-width: 950px;
+    padding:20px;
+    border-top-color: yellow 3px;
+    color: yellow;
+    font-size:0.9rem; 
+    text-align: left;
+    overflow: hidden; 
+}
+.footer img{
+    max-width: 50px;
+    max-height: 50px;
+    float: top;
+    float: right;
+}
+
+/* media queries */
+/* small devices (landscape phoes, 576 and up) */
+
+@media (min-width: 576px){
+    body{
+        background-color: plum;
+    }
+    .links{
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .links a {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: darkmagenta;
+    }
+    links{
+        margin-top: 40px;
+        text-align: right;
+        margin-bottom: 20px;
+    }
+    .links a {
+        text-align: right;
+        
+    }
+}
+@media (min-width: 992px){
+    body{
+        background-color: purple;
+    }
+    .links{
+        margin-top: 40px;
+        text-align: right;
+    }
+}
+@media (min-width: 1200px){
+    body{
+        background-color:#360b4f ;
+        text-align: right;
+    }
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
