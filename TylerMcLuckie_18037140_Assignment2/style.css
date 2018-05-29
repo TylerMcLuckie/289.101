@@ -3,7 +3,7 @@
 @import 
 url('https://fonts.googleapis.com/css?family=Lato');
 body{
-    background-color: #360b4f;
+    background-color: #260d2b;
     margin:2px;
     font-family: 'Lato', sans-serif;
     max-width: 950px;
@@ -64,9 +64,11 @@ body{
 }
 .box {
     width:900px;
-    height:307px;
+    height:300px;
     margin-top:20px;
-    border-bottom:3px gray;   
+    border-bottom:3px yellow;
+    text-align: left;
+    color: yellow;
 }
 .box img{
     width:60%;
@@ -139,7 +141,7 @@ body{
 }
 @media (min-width: 1200px){
     body{
-        background-color:#360b4f ;
+        background-color:#260d2b ;
         text-align: right;
     }
 }
