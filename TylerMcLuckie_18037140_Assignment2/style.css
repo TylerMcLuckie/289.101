@@ -78,10 +78,20 @@ body{
     height:300px;
     float:bottom;
 }
-.picbox{
-     width: 50%;
-    height:300px;    
+.aboutbox{
+    width:900px;
+    overflow: hidden; 
+    border-bottom:3px yellow;
+    float: right;
+    text-align: right;
+    color: white;
+    font-size: 0.04rem,          
+}  
+.aboutbox img{
+    width: 20%;
+    float:left; 
 }
+
 .contactbox{
     width:900px;
     overflow: hidden; 
