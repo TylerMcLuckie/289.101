@@ -1,9 +1,11 @@
-* {outline: 1px yellow solid}
+/* {outline: 1px yellow solid}*/
 
 @import 
 url('https://fonts.googleapis.com/css?family=Lato');
 body{
-    background-color: #1e0c22;
+    //*background:linear-gradient (to bottom right,#1e0c22, #white); Is not working*/
+    
+    background-color:#1e0c22;
     margin:2px;
     font-family: 'Lato', sans-serif;
     max-width: 950px;
@@ -11,10 +13,11 @@ body{
     margin-right: auto; 
 }
 .header{
-    border-top-color: yellow 23px;
+    border-top-color: 5px yellow solid;
     overflow: hidden; 
 }
 .nav{
+    border-top-color: 5px yellow solid;
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
@@ -30,15 +33,16 @@ body{
 .links{
     margin-top:40px;
     margin-right:20px;
-    font-size:0.9rem;
-    color:darkmagenta;
+    font-size:1rem;
+    color:yellow;
     float:right;
     font-family:cursive;
     min-width:200px;
 }
 .links a{
     padding:15px;
-    color:yellow;
+    color:darkmagenta;
+    outline: 2px white;
     font-family: cursive;
     text-decoration:none; 
     text-align: right;
@@ -46,7 +50,10 @@ body{
 .links a:hover{
     color:white;
 }
-.links a current{
+.links a current:hover{
+  background-color:darkmagenta;
+  color: white;
+}
     color: white;   
 }
 .center{
@@ -54,28 +61,17 @@ body{
     max-width:950px;
     padding:10px;
 }
-.content{
-    max-width: 900px;
-    height: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    color: yellow;
-    text-align:right; 
-}
-.content img{
-    float: left;
-    width: 80%;
-}
 .box {
     width:900px;
     height:400px;
     border-bottom:3px yellow;
     float: top;
     text-align: center;
-    color: white;
-    font-size: 0.04rem,
+    color: darkmagenta;
+    font-size: 0.03rem,
 }
 .box img{
+    padding-top:10px;
     width: 70%;
     height:300px;
     float:bottom;
@@ -86,10 +82,11 @@ body{
     border-bottom:3px yellow;
     float: top;
     text-align: center;
-    color: white;
+    color: darkmagenta;
     font-size: 0.03rem,          
 }  
 .about img{
+    padding-top: 10px;
     width: 80%;
     margin-left: auto;
     margin-right: auto; 
@@ -100,8 +97,8 @@ body{
     border-bottom:3px yellow;
     float: right;
     text-align: right;
-    color: white;
-    font-size: 0.04rem,      
+    color: darkmagenta;
+    font-size: 0.4rem,      
 }
 .contactbox img{
     width: 60%;
@@ -115,9 +112,8 @@ body{
 .footer{
     max-width: 950px;
     padding:20px;
-    border-top-color: yellow 3px;
-    color: yellow;
-    font-size:0.9rem; 
+    border-top-color:5px yellow solid;
+    color: darkmagenta; 
     text-align: left;
     overflow: hidden; 
 }
@@ -138,68 +134,60 @@ body{
     .links{
         margin-top: 40px;
         text-align: center;
-        margin-bottom: 20px;  
+        margin-bottom: 20px;
+        /*font-size:0.5rem;*/
     }
     .links a {
         text-align: center;
     }
     .center{
     max-width:576px;
+   /* max-height: 700px;*/
     padding:20px;
-}
-.content{
-    max-width: 576px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    color: yellow;
-    text-align:right; 
-}
-.content img{
-    float: left;
-    width: 80%;
-}
-.box {
+    }
+    .box {
     width:576px;
     height:px;
     border-bottom:3px yellow;
     float: top;
     text-align: center;
-    color: white;
-    font-size: 0.04rem,
-}
-.box img{
+    color: darkmagenta;
+    font-size: 0.02rem,
+    }
+    .box img{
     width: 70%;
     height:100px;
     float:bottom;
-}
-.about{
+    }
+    .about{
     width:576px;
     overflow: hidden; 
     border-bottom:3px yellow;
     float: top;
     text-align: center;
-    color: white;
-    font-size: 0.01rem,          
-}  
-.about img{
+    color: darkmagenta;
+    font-size: 0.5rem,          
+    }  
+    .about img{
+    padding-top:10px; 
     width: 80%;
     margin-left: auto;
     margin-right: auto; 
-}
-.contactbox{
+    }
+    .contactbox{
     width:576px;
     overflow: hidden; 
     border-bottom:3px yellow;
     float: right;
     text-align: right;
-    color: white;
-    font-size: 0.01rem,      
-}
-.contactbox img{
+    color: darkmagenta;
+    font-size: 0.5rem,      
+    }
+    .contactbox img{
     width: 60%;
     float:left;
-}
+    }
+    }
 
 @media (min-width: 768px){
     body{
@@ -212,66 +200,55 @@ body{
     }
     .links a {
         text-align: right;
-        
     }
     .center{
     height:900px;
     max-width:768px;
     padding:20px;
-}
-.content{
-    max-width: 768px;
-    height: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    color: yellow;
-    text-align:right; 
-}
-.content img{
-    float: left;
-    width: 80%;
-}
-.box {
+    }
+    .box {
     width:768px;
     height:300px;
     border-bottom:3px yellow;
     float: top;
     text-align: center;
-    color: white;
+    color: darkmagenta;
     font-size: 0.01rem,
-}
-.box img{
+    }
+    .box img{
     width: 70%;
     height:200px;
     float:bottom;
-}
-.about{
+    }
+    .about{
     width:768px;
     overflow: hidden; 
     border-bottom:3px yellow;
     float: top;
     text-align: center;
-    color: white;
+    color: darkmagenta;
     font-size: 0.01rem,          
-}  
-.about img{
+    }  
+    .about img{
+    padding-top: 10px;
     width: 80%;
     margin-left: auto;
     margin-right: auto; 
-}
-.contactbox{
+    }
+    .contactbox{
     width:768px;
     overflow: hidden; 
     border-bottom:3px yellow;
     float: right;
     text-align: right;
-    color: white;
+    color: darkmagenta;
     font-size: 0.01rem,      
-}
-.contactbox img{
+    }
+    .contactbox img{
     width: 60%;
     float:left;
-}
+    }
+    }
 @media (min-width: 992px){
     body{
         background-color: purple;
@@ -285,34 +262,22 @@ body{
     height:1200px;
     max-width:950px;
     padding:20px;
-}
-.content{
-    max-width: 900px;
-    height: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    color: yellow;
-    text-align:right; 
-}
-.content img{
-    float: left;
-    width: 80%;
-}
-.box {
+    }
+    .box {
     width:900px;
     height:400px;
     border-bottom:3px yellow;
     float: top;
     text-align: center;
-    color: white;
+    color: darkmagenta;
     font-size: 0.04rem,
-}
-.box img{
+    }
+    .box img{
     width: 70%;
     height:300px;
     float:bottom;
-}
-.about{
+    }
+    .about{
     width:900px;
     overflow: hidden; 
     border-bottom:3px yellow;
@@ -320,32 +285,35 @@ body{
     text-align: center;
     color: white;
     font-size: 0.03rem,          
-}  
-.about img{
+    }  
+    .about img{
+    padding-top: 10px;
     width: 80%;
     margin-left: auto;
     margin-right: auto; 
-}
-.contactbox{
+    }
+    .contactbox{
     width:900px;
     overflow: hidden; 
     border-bottom:3px yellow;
     float: right;
     text-align: right;
-    color: white;
+    color: darkmagenta;
     font-size: 0.04rem,      
-}
-.contactbox img{
+    }
+    .contactbox img{
     width: 60%;
     float:left;
     
-}
+    }
+    }
 @media (min-width: 1200px){
     body{
-        background-color:#1e0c22 ;
+        /*background:linear-gradient(to bottom right,#1e0c22,#white); Is not working*/
+        background-color:#1e0c22;
         text-align: right;
     }
-}
+    }
 
     
     
