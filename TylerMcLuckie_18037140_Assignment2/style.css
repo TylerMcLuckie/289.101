@@ -1,8 +1,12 @@
-@import 
-url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
+html {
+     border-top: 5px yellow solid;
+}
+
 body{
     //*background:linear-gradient (to bottom right,#1e0c22, #white); Is not working*/
-    
     background-color:#1e0c22;
     margin:2px;
     font-family: 'Lato', sans-serif;
@@ -11,7 +15,6 @@ body{
     margin-right: auto; 
 }
 .header{
-    border-top-color: 5px yellow solid;
     overflow: hidden; 
 }
 .nav{
@@ -39,16 +42,15 @@ body{
     padding:15px;
     color:darkmagenta;
     outline: 1px white;
-    font-family: cursive;
+    font-family: 'Marck Script', cursive;
     text-decoration:none; 
     text-align: right;
-    font-size:1.5rem;
+     font-size: 0.6em;
 }
 .links a:hover{
     color:white;
 }
-.a current:hover{
-  background-color:darkmagenta;
+.links .current {
   color: white;
 }
 .center{
@@ -72,13 +74,14 @@ body{
     float:bottom;
 }
 .about{
-    width:900px;
+    max-width:900px;
     overflow: hidden; 
     border-bottom:3px yellow;
     float: top;
     text-align: center;
     color: white;
-    font-size: 0.03rem,          
+    margin-left: auto;
+    margin-right: auto;
 }  
 .about img{
     padding-top: 10px;
@@ -134,9 +137,10 @@ body{
     }
     .links a {
         text-align: center;
+        font-size: 1em;
+}
     }
     .center{
-    max-width:576px;
    /* max-height: 700px;*/
     padding:20px;
     }
@@ -155,7 +159,6 @@ body{
     float:bottom;
     }
     .about{
-    width:500px;
     overflow: hidden; 
     border-bottom:3px yellow;
     float: top;
@@ -217,7 +220,7 @@ body{
     float:bottom;
     }
     .about{
-    width:700px;
+    max-width:700px;
     overflow: hidden; 
     border-bottom:3px yellow;
     float: top;
@@ -274,7 +277,7 @@ body{
     float:bottom;
     }
     .about{
-    width:900px;
+    max-width:900px;
     overflow: hidden; 
     border-bottom:3px yellow;
     float: top;
@@ -302,14 +305,14 @@ body{
     float:left;
     
     }
-    }
+}
 @media (min-width: 1200px){
     body{
         /*background:linear-gradient(to bottom right,#1e0c22,#white); Is not working*/
         background-color:#1e0c22;
         text-align: right;
     }
-    }
+}
 
     
     
